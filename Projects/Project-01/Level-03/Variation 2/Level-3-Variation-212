@@ -1,0 +1,116 @@
+<html>
+<head>
+<style type="text/css">
+
+
+body{
+
+	background:blue;
+}
+
+.white{
+color:white;
+}
+.italic{
+font-style:italic;
+}
+.spacing{
+padding:5px 10px;
+}
+
+.relative{
+  height:500px;
+  width:500px;
+  background-color:black;
+  position:relative;
+  top:50px;
+  left:800px;
+}
+
+
+
+</style>
+</head>
+
+<p class="white italic relative">
+
+	 Camomile Tea
+  -by Katherine Mansfield
+    <br>
+    <br>
+      Outside the sky
+    <br>
+
+      is light with stars;
+    <br>
+      There’s a hollow roaring from the sea.
+  <br>
+      And, alas! for the little almond flowers,
+    <br>
+      The wind is shaking the almond tree.
+    <br>
+  <br>
+
+
+      How little I thought, a year ago,
+    <br>
+      In the horrible cottage upon the Lee
+  <br>
+      That he and I should be sitting so
+    <br>
+      And sipping a cup of
+    <br>
+      camomile tea.
+    <br>
+  <br>
+
+
+      Light
+    <br>
+    as feathers the witches fly,
+    <br>
+      The horn of the moon is plain to see;
+  <br>
+      By a firefly under a jonquil flower
+    <br>
+      A goblin toasts a bumble-bee.
+  <br>
+  <br>
+
+
+
+      We
+      might be fifty,
+    <br>
+      we
+      might be five,
+    <br>
+      So snug,
+    <br>
+      so compact,
+    <br>
+      so wise are we!
+  <br>
+      Under the kitchen-table leg
+    <br>
+      My knee
+  <br>
+      is pressing
+  <br>
+    against his knee.
+  <br>
+  <br>
+
+
+      Our shutters
+    <br>
+      are shut,the fire is low,
+  <br>
+        The tap is dripping peacefully;
+    <br>
+      The saucepan shadows on the wall
+  <br>
+    Are black and round and plain to see.
+</p>
+
+</html>

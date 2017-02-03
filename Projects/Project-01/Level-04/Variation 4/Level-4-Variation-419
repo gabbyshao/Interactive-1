@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Type Style</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="19.css" />
+		<link href="https://fonts.googleapis.com/css?family=Barrio" rel="stylesheet">
+	</head>
+
+	<body>
+
+		<div class="main">
+    <h1>Camomile Tea</h1>
+
+		<h2>by Katherine Mansfield </h2>
+		<p>
+
+    <br>
+		<br>
+		<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+        Outside the sky is light with stars;
+
+      <br>
+
+        There’s a hollow roaring from the sea.
+
+    <br>
+        And, alas! for the little almond flowers,
+
+      <br>
+			<p id= overline>
+        The wind is shaking the almond tree.</p>
+
+    <br>
+    <br>
+    <br>
+
+        How little I thought, a year ago,
+
+      <br>
+			<p id= overline>
+        In the horrible cottage upon the Lee</p>
+
+      <br>
+        That he and I should be sitting so
+      <br>
+				<p id= overline>
+      And sipping a cup of camomile tea. </p>
+      <br>
+      <br>
+      <br>
+
+        Light as feathers the witches fly,
+
+      <br>
+        The horn of the moon is plain to see;
+
+      <br>
+        By a firefly under a jonquil flower
+
+      <br>
+        A goblin toasts a bumble-bee.
+
+    <br>
+    <br>
+    <br>
+<p class="space"  "four-hundred">
+        We might be fifty, we might be five,
+
+        <br>
+
+
+        So snug, so compact, so wise are we!
+    <br>
+		<p class="center" id="blue-bold">
+        Under the kitchen-table leg </p>
+        My knee is pressing against his knee.
+    <br>
+      <br>
+      <br>
+<p class="center" id="blue-bold">
+          Our shutters are shut, the fire is low,
+    <br>
+        The tap is dripping peacefully;
+
+    <br>
+        The saucepan shadows on the wall
+
+      <br>
+        Are black and round and plain to see.
+
+      </p>
+
+
+
+
+
+    </div>
+
+  </body>
+  </html>
