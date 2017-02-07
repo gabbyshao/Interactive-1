@@ -20,7 +20,7 @@ h2{
 }
 
 p{
-	width: 50%;
+	width: 70%;
 	margin: 50px;
 	font-size: 5em;
 }
@@ -65,20 +65,20 @@ p{
 }
 
 .circle2{
-	transition:height 1s ease;
+	transition:width 1s ease;
 	width: 100px;
 	height: 100px;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
-	background: #0000ff;
+	background: yellow;
 	float: left;
-	margin: 15px;
+	margin: 30px;
 }
 
 .circle2:hover{
 
-	height:300px
+	width:400px
 }
 
 
@@ -170,11 +170,11 @@ p{
 .triangle-right {
 	width: 0;
 	height: 0;
-	border-top: 50px solid transparent;
-	border-left: 100px solid  #0000ff;
-	border-bottom: 50px solid transparent;
+	border-top: 30px solid transparent;
+	border-left: 50px solid  black;
+	border-bottom: 30px solid transparent;
 	float: left;
-	margin: 15px;
+	margin: 100px;
 }
 
 .left-corner {

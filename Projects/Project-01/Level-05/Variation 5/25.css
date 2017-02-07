@@ -21,7 +21,7 @@ h2{
 
 
 .circle-outline{
-	transition:width 1s ease;
+	transition:width 2s ease;
 	width: 100px;
 	height: 100px;
 	border: 3px dotted #0000ff;
@@ -29,11 +29,11 @@ h2{
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
 	float: left;
-	margin: 100px;
+	margin: 50px;
 }
 
 .circle-outline:hover{
-	width: 900px;
+	width: 700px;
 }
 
 .circle-outline2{
