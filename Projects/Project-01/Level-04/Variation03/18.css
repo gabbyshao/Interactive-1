@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-	font-size: 5em;
+	font-size: 4em;
   float:right;
 	color: #36382E;
 	font-family: 'Just Me Again Down Here', cursive;
@@ -25,7 +25,8 @@ h2{
 p{
 	width: 50%;
 	margin: 100px;
-	font-size: 4em;
+	font-size: 2em;
+	line-height: 12px;
 	color: #939F5C;
 	font-family: 'Just Me Again Down Here', cursive;
 
