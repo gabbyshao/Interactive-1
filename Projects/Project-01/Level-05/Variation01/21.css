@@ -77,7 +77,7 @@ h2{
 	transition:width 1s ease;
 	width: 45px;
 	height: 45px;
-	border: 5px dotted #0000ff;
+	border: 5px dotted ;
 	float: left;
 	margin: 15px;
 }
@@ -90,7 +90,7 @@ h2{
 	transition:width 1s ease;
 	width: 45px;
 	height: 45px;
-	border: 5px dotted #0000ff;
+	border: 5px dotted white;
 	float: left;
 	margin: 70px;
 }
@@ -103,7 +103,7 @@ h2{
 	transition:width 1s ease;
 	width: 50px;
 	height: 50px;
-	background: #FF2C55;
+	background: #white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;

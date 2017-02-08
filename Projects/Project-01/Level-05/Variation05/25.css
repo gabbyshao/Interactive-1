@@ -24,7 +24,7 @@ h2{
 	transition:width 2s ease;
 	width: 100px;
 	height: 100px;
-	border: 3px dotted #0000ff;
+	border: 3px dotted white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
@@ -40,7 +40,7 @@ h2{
 	transition:width 1s ease;
 	width: 100px;
 	height: 100px;
-	border: 3px dotted yellow;
+	border: 3px dotted white;
 	-moz-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	border-radius: 50px;
