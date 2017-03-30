@@ -1,0 +1,97 @@
+@import url();
+
+body {
+
+}
+
+
+.decorative{
+	position:absolute;
+	top:45%;
+	left: 15%;
+	width: 100%;
+}
+
+#square{
+	width: 500px;
+	height:500px;
+	background: white;
+	display: inline-block;
+	margin-right: 15%;
+}
+
+#circle{
+	width:200px;
+	height:200px;
+	background: black;
+	border-radius: 200px;
+	display: inline-block;
+}
+
+/* Text
+-------------------------------------------------- */
+
+
+/* Image
+-------------------------------------------------- */
+
+
+/*Shapes
+-------------------------------------------------- */
+
+
+/* iPad
+-------------------------------------------------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+
+  /* text */
+
+
+  /* image */
+
+}
+
+/* Mobile
+-------------------------------------------------- */
+
+@media screen and (max-width: 768px) {
+
+  /* text */
+	h1{
+	font-family: sans-serif;
+	color:yellow;
+	}
+
+	h2{
+	font-family: sans-serif;
+	color: red;
+	}
+
+	h3{
+	font-family: sans-serif;
+	}
+
+  /* image */
+	img{
+	width:50%;
+	margin-right: auto;
+	margin-left:auto;
+  	}
+
+  	#square{
+	width: 200px;
+	height:200px;
+	background: rgba(0,0,255,0.5);
+	border-radius: 100px;
+	display: inline-block;
+	}
+
+	#circle{
+	width: 200px;
+	height:200px;
+	background: rgba(0,0,255,0.5);
+	border-radius: 100px;
+	display: inline-block;
+	}
+
+}

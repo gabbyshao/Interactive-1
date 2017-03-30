@@ -1,0 +1,228 @@
+* {
+	box-sizing: content-box;
+}
+
+body{
+
+	background:white;
+}
+
+.triangle-up {
+	width: 0;
+	height: 0;
+	border-left: 100px solid transparent;
+	border-right: 100px solid transparent;
+	border-bottom: 200px solid #0ff0ff;
+	float: left;
+	margin: 15px;
+
+}
+
+
+.circle-outline{
+	width: 200px;
+	height: 200px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	margin: 10px;
+}
+
+.circle-outline2{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin: 10px;
+}
+
+.circle-outline3{
+	width: 140px;
+	height: 140px;
+	position: absolute;
+	border: 3px dotted yellow;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	margin: 60px;
+}
+
+.circle-outline12{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	margin: 120px;
+}
+
+.circle-outline13{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 5%x;
+	float: left;
+	margin: 140px;
+}
+
+.circle-outline14{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50%;
+	-webkit-border-radius: 50%;
+	border-radius: 50%;
+	float: left;
+	margin: 160px;
+}
+
+
+
+
+
+.square{
+
+width: 200px;
+height: 200px;
+background: black;
+border-left: 50px solid transparent;
+margin-top: 350px;
+position: absolute;
+}
+
+.circle-outline4{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted yellow;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 330px;
+}
+
+.circle-outline5{
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	border: 3px dotted blue;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 430px;
+	margin-left: 100px;
+}
+
+.circle-outline6{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: 150px;
+}
+
+.circle-outline7{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: 100px;
+}
+
+.circle-outline8{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: 10px;
+}
+
+.circle-outline9{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 400px;
+	margin-left: 20px;
+}
+
+.circle-outline10{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted #ff00ff;
+	float: left;
+	margin-top: 380px;
+	margin-left: 70px;
+}
+
+.circle-outline11{
+	width: 70px;
+	height: 70px;
+	position: absolute;
+	border: 3px dotted white;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+	float: left;
+	margin-top: 360px;
+	margin-left: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+	/* create pattern-2 CSS here */
+}
+
+.pattern-3{
+	height: 500px;
+	/* create pattern-3 CSS here */
+
+}
+
+.pattern-4{
+	height: 100%;
+}
