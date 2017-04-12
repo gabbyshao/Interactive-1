@@ -1,0 +1,147 @@
+
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" href="./index_files/jquery-ui.css">
+       <script src="./index_files/jquery.min.js"></script>
+      <script src="./index_files/jquery-ui.js"></script>
+
+      <style>
+          #draggable1,#draggable2,#draggable3,#draggable4,#draggable5{
+                font-size: 12px;
+                text-align: center;
+								background-color: black;
+                padding: 0.7em;
+                width: 200px;
+                color: yellow;
+								position: relative;
+            }
+
+         #droppable1,#droppable2,#droppable3,#droppable4,#droppable5{
+					    background-color: yellow;
+							margin-left: 500px;
+              width: 400px;
+              border: #52BE80 3px;
+              text-align: center;
+              }
+
+         #draggable2:hover{
+          cursor: zoom-in;
+					 cursor: -webkit-zoom-in;
+
+         }
+
+         #draggable3:hover{
+          cursor: zoom-out;
+					cursor: -webkit-zoom-out;
+
+
+         }
+
+        .zoomin{
+          font-size: 2em;
+         }
+         .zoomout{
+          font-size: 0.5em;
+         }
+
+        .color {
+          color: Blue;
+        }
+
+        .blurry-text {
+        color: transparent;
+				font-size: 3em;
+        text-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+
+      </style>
+
+      <script>
+
+        $(function(){
+          $('#draggable1').draggable({ revert: "valid" });
+          $('#droppable1').droppable({
+            drop: function(event, ui){
+              $(this)
+              .find("p")
+              .html("Big Mouth")
+            }
+          });
+
+          $('#draggable2').draggable({ revert: "valid" });
+          $('#droppable2').droppable({
+            drop: function(event, ui){
+              $(this)
+              .addClass("zoomin")
+            }
+          });
+
+          $('#draggable3').draggable({ revert: "valid" });
+          $('#droppable3').droppable({
+           drop: function(event, ui){
+              $(this)
+              .addClass("blurry-text")
+            }
+          });
+
+          $('#draggable4').draggable({ revert: "valid" });
+          $('#droppable4').droppable({
+            drop: function(event, ui){
+              $(this)
+              .addClass("color")
+            }
+          });
+
+          $('#draggable5').draggable();
+          $('#droppable5').droppable({
+            drop: function(event, ui){
+              $(this)
+              .addClass("zoomin")
+            }
+          });
+        });
+
+      </script>
+  </head>
+
+  <body data-gr-c-s-loaded="true">
+
+    <div id="draggable1" class="ui-draggable ui-draggable-handle">
+      <p> Penguin </p>
+    </div>
+
+        <div id="droppable1" class="ui-widget-header ui-droppable">
+          <p> Hippo </p>
+        </div>
+
+        <div id="draggable2" class="ui-draggable ui-draggable-handle">
+      <p> Dog </p>
+    </div>
+
+        <div id="droppable2" class="ui-widget-header ui-droppable">
+          <p> Bark </p>
+        </div>
+
+        <div id="draggable3" class="ui-draggable ui-draggable-handle">
+      <p> Fox </p>
+    </div>
+
+        <div id="droppable3" class="ui-widget-header ui-droppable">
+          <p> Rabbit</p>
+        </div>
+
+        <div id="draggable4" class="ui-draggable ui-draggable-handle">
+      <p> Shark </p>
+    </div>
+
+        <div id="droppable4" class="ui-widget-header ui-droppable">
+        <p> Rhinoceros </p>
+        </div>
+
+        <div id="draggable5" class="ui-draggable ui-draggable-handle">
+      <p> Cat</p>
+    </div>
+
+        <div id="droppable5" class="ui-widget-header ui-droppable">
+          <p> shut up </p>
+        </div>
