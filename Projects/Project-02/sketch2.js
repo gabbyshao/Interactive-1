@@ -6,16 +6,11 @@ var y = 0.0;
 var value = 0;
 var song;
 
-// var shiftx, shifty;
-
 function setup() {
 	createCanvas(1250,680);
 	stroke(255);
 	noFill();
 	strokeWeight(4.5);
-
-	// shiftx = 0;
-	// shifty = 0;
 }
 
 function draw() {
@@ -30,15 +25,7 @@ function draw() {
 	x = 670;
 	y = 260;
 
-
-// push();
-// translate(shiftx, shifty);
-// shiftx++;
-// shifty++;
-
-// NOTE: chin and head
-bezier(x-53, y-5, x-35, y+93, x+50, y+105, x+73, y-5);
-bezier(x-58, y-40, x-60, y-150, x+80, y-150, x+78, 220);
+	chinandhead();
 
 // NOTE: left&Right ear
 bezier(x-60, y-40, x-90, y-60, x-90, y+10, x-50, y+5);
@@ -77,8 +64,6 @@ bezier(x+80, y+290, x+80, y+170, x+80, y+170, x+80, y+290);
 bezier(x-70, y+300, x-70, y+240, x-70, y+240, x-70, y+300);
 bezier(x+90, y+270, x+90, y+240, x+90, y+240, x+90, y+300);
 
-// pop();
-
   /*
   try uncommenting the background function in the draw()
   and see how your sketch changes
@@ -89,6 +74,10 @@ bezier(x+90, y+270, x+90, y+240, x+90, y+240, x+90, y+300);
 //bouncesimple//
 
 }
+
+function chinandhead(){
+bezier(x-53, y-5, x-35, y+93, x+50, y+105, x+73, y-5);
+bezier(x-58, y-40, x-60, y-150, x+80, y-150, x+78, 220);}
 
 function mousePressed() {
 	if (value ==0){
