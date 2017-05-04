@@ -1,0 +1,88 @@
+
+* {
+  margin-left:20;
+  margin-top:10;
+  position:relative;
+  font-family: 'Peddana', serif;
+  padding:0;
+  list-style: none;
+  vertical-align: baseline;\
+}
+div {
+  position:relative;
+  z-index: 2;
+}
+
+body {
+  background-color: white;
+  color: #333;
+  margin-left: 300px;
+  font-weight:700;
+  font-size: 40px;
+}
+
+
+#one:hover{
+  opacity: 0;
+}
+
+#two:hover{
+opacity: 0;
+}
+
+#topbuttom{
+  z-index: 2000;
+}
+
+#星期一{
+  z-index: 2000;
+}
+
+#星期二{
+  z-index: 2000;
+}
+
+
+.box {
+      font-size:1.5em;
+      margin-right: 0.4em;
+      line-height:1.5;
+    }
+
+ {
+      font-size:1.5em;
+      margin-right: 0.4em;
+      line-height: 1.4;
+    }
+
+  .author {
+    width:450px;
+    height:auto;
+    clear:both;
+    padding-top:20px;
+    font-size:10em;
+    text-align:right;
+
+  }
+
+  .buttons {
+      height:8px;
+      border:none;
+      border-radius:3px;
+      color:black;
+      background-color:black;
+      outline:none;
+      font-size:0.85em;
+      padding: 8px 18px 6px 18px;
+      font-family: 'andale mono';
+      margin-top:100px;
+      margin-left: 70px;
+      opacity:1;
+      cursor:pointer;
+      &:hover {
+        opacity:0.9;
+      }
+    }
+  }
+
+}

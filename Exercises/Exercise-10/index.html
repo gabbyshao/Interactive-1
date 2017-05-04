@@ -1,0 +1,113 @@
+<html>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+		<script>
+			$(document).ready(function(){
+
+
+						$("#box1").click(function(){
+							$("#box1").addClass("rainbowMoving");
+						});
+
+
+			var myVideo = document.getElementById("beachy");
+
+				myVideo.pause();
+				var springcleaning = $("#springcleaning")[0];
+		/*
+				var dogAudio = $("#bark")[0];
+				dogAudio.play();
+		*/
+				var dogAudio = $("#bark")[0];
+				$("#box1").mouseenter(function(){
+					springcleaning.play();
+					myVideo.play();
+				});
+
+				$("#box1").mouseout(function(){
+					myVideo.pause();
+					springcleaning.pause();
+				});
+
+				$("#click").click(function(){
+					$("#beachy").clone().appendTo("#box1");
+				});
+//prependTo()
+			});
+
+		</script>
+
+		<style>
+
+		 body{
+			 background-color:black;
+
+		 }
+
+
+		 .rainbowMoving{
+			 width: 150px;
+			 height: 150px;
+			 position: relative;
+			 background-color: white;
+			 animation-name: movingRainbow;
+			 animation-duration: 5s;
+		 }
+
+			#box1{
+				width: 400px;
+				height: 400px;
+				margin-left: 200px;
+				margin-top: 200px;
+				background-image: url(assets/Y4A8552.png);
+				background-repeat: no-repeat;
+
+			}
+
+			#beachy{
+				margin-left: 400px;
+				margin-top: -100px;
+
+
+
+
+			}
+		</style>
+	</head>
+
+	<body>
+
+
+
+		<div id="box1">
+		</div>
+
+		<audio id= springcleaning>
+			<source src="assets/Spring Cleaning - Don't Starve [Acoustic] 2.mp3" type="audio/mp3">
+		</audio>
+
+
+		<audio id= "doorbell">
+			<source src="assets/meow.wav" type="audio/mp3">
+		</audio>
+
+
+<!--
+		<audio autoplay>
+			<source src="assets/meow.wav" type="audio/wav">
+		</audio>
+-->
+
+		<audio id="bark">
+			<source src="assets/bark.wav" type="audio/wav">
+		</audio>
+
+		<video id="beachy" width="200" autoplay>
+			<source src="assets/IMG_3144.mp4">
+			Sorry, your browser doesn't support HTML5 video :(
+		</video>
+
+		<a id="click">PUSH THE BUTTON</a>
+	</body>
+</html>
