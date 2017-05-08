@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Type Style</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="22.css" />
+		<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Playfair+Display+SC" rel="stylesheet">
+	</head>
+
+	<body>
+
+<div class="main-2">
+		<h1>Camomile Tea</h1>
+		<h2>Katherine Mansfield </h2>
+
+
+		<p>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+<div class="main-3">
+      Outside the sky is light with stars;
+
+      <br>
+
+        There’s a hollow roaring from the sea.
+
+    <br>
+        And, alas! for the little almond flowers,
+
+      <br>
+        The wind is shaking the almond tree.
+</div>
+
+
+		<div class="main-4">
+
+
+        <marquee>How little</marquee> <marquee scrollamount="3">I</marquee> <marquee>thought</marquee>
+				<font color="white">,</font>
+				<br>
+				&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspa year ago
+				<font color="white">，</font>
+
+      <br>
+        <marquee direction="right" scrollamount="8">In the horrible cottage upon the Lee</marquee>
+
+      <br>
+        That <marquee scrollamount="6">he and I</marquee>
+					<br>
+					<marquee direction="right">should be sitting so</marquee>
+<br>
+      And sipping a cup of camomile tea.
+      <br>
+      <br>
+      <br>
+			<br>
+			<br>
+			<br>
+			<br>
+
+        <font color="white">Light</font> as feathers the witches fly,
+
+      <br>
+
+        The horn of the moon is plain to see;
+
+      <br>
+        By a firefly under a jonquil flower
+
+      <br>
+        A goblin toasts <marquee direction="right">a bumble-bee.</marquee>
+
+</p>
+    <br>
+    <br>
+    <br>
+
+        We might be <font-size:50>fifty</font-size>, we might be five,
+
+        <br>
+
+
+        So snug,
+				<br>
+				<marquee>so compact,</marquee>
+				<br>so wise are we!
+    <br>
+
+        Under the kitchen-table leg
+    <br>
+        My knee  is pressing <font color="white">against</font color> his knee.
+    <br>
+      <br>
+      <br>
+          Our shutters are shut,
+					<br>
+					the fire is low,
+    <br>
+        The tap is dripping peacefully;
+
+    <br>
+        The saucepan shadows on the wall
+
+      <br>
+        Are black and round and plain to see.
+
+      </p>
+
+
+
+
+
+    </div>
+
+  </body>
+  </html>

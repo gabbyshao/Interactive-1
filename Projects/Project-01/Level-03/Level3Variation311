@@ -1,0 +1,198 @@
+<html>
+	<head>
+  <style type"text/css">
+
+.red{
+color:red;
+}
+.italic{
+font-style:italic;
+}
+.spacing{
+padding:5px 10px;
+}
+
+body{
+
+	background:white;
+}
+
+.box-row1{
+	display: inline-block;
+	background-color: yellow;
+	width: 300px;
+	height: 130px;
+	margin:200px;
+	border: 1px solid yellow;
+}
+
+.box-row2{
+	display: inline-block;
+	background-color: yellow;
+	width: 300px;
+	height: 100px;
+	margin:80px;
+	border: 1px solid yellow;
+}
+
+.relative{
+  height:20px;
+  width:300px;
+  background-color:yellow;
+  position:absolute;;
+  top:500px;
+  left:800px;
+	border: 1px solid yellow;
+}
+
+.relative2{
+  height:130px;
+  width:300px;
+  background-color:yellow;
+  position:absolute;;
+  top:550px;
+  left:700px;
+	border: 1px solid yellow;
+}
+
+.relative3{
+  height:240px;
+  width:600px;
+  background-color:yellow;
+  position:absolute;;
+  top:888px;
+  left:700px;
+	border: 1px solid yellow;
+}
+
+.relative4{
+  height:130px;
+  width:300px;
+  background-color:yellow;
+  position:absolute;;
+  top:1200px;
+  right:500px;
+	border: 1px solid yellow;
+}
+
+.static{
+	height:300px;
+	width:300px;
+	background-color:#dadada;
+	position:static;
+}
+
+.horizontal-center{
+	height:300px;
+	width:300px;
+	background-color:#dadada;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:100px;
+}
+
+
+
+container{
+	width:80px
+	overflow:auto;
+	border;1px solid blue
+}
+
+imag{
+	float:right;
+	width;30px;
+	height:30px;
+	margin:20px;
+}
+
+</style>
+
+<body>
+
+
+
+
+	<h1>Camomile Tea</h1>
+	-by Katherine Mansfield
+
+
+	<br>
+	<br>
+	<p class="box-row1">
+		Outside the sky
+	<br>
+
+		is light with stars;
+	<br>
+		There’s a hollow roaring from the sea.
+	<br>
+		And, alas! for the little almond flowers,
+	<br>
+		The wind is shaking the almond tree. </p>
+
+		<p class="box-row2">
+		How little I thought, a year ago,
+	<br>
+		In the horrible cottage upon the Lee
+	<br>
+		That he and I should be sitting so
+	<br>
+	<p class="relative">
+		And sipping a cup of camomile tea. </p>
+	<br>
+	<br>
+
+<p class="relative2">
+		Light
+	<br>
+	as feathers the witches fly,
+	<br>
+		The horn of the moon is plain to see;
+	<br>
+		By a firefly under a jonquil flower
+	<br>
+		A goblin toasts a bumble-bee. </p>
+	<br>
+	<br>
+	<p class="relative3">
+		We
+	<br>
+		might be fifty,
+	<br>
+		we
+	<br>
+		might be five,
+	<br>
+		So snug,
+	<br>
+		so compact,
+	<br>
+		so wise are we!
+	<br>
+		Under the kitchen-table leg
+	<br>
+		My knee
+	<br>
+		is pressing
+	<br>
+	against his knee. </p>
+	<br>
+	<br>
+
+	<p class="relative4">
+		Our shutters
+	<br>
+		are shut,the fire is low,
+	<br>
+			The tap is dripping peacefully;
+	<br>
+		The saucepan shadows on the wall
+	<br>
+	Are black and round and plain to see. </p>
+
+	</p>
+
+</head>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Type Style</title>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" href="24.css" />
+	</head>
+
+	<body>
+
+
+    <h1>Camomile Tea</h1>
+
+		<h2>by Katherine Mansfield </h2>
+
+    <br>
+		<br>
+		<br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+
+		<div class="main">
+				<div class="circle-outline"> </div>
+
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspOutside the sky is light with stars;
+
+      <br>
+
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbspThere’s a hollow roaring from the sea.
+
+    <br>
+        And, alas! for the little almond flowers,
+
+      <br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  The wind is shaking the almond tree.
+
+    <br>
+    <br>
+    <br>
+
+<div class="circle-outline2"> </div>
+        How little I thought, a year ago,
+
+      <br>
+        &nbsp&nbsp&nbspIn the horrible cottage upon the Lee
+
+      <br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp  That he and I should be sitting so
+      <br>
+      And sipping a cup of camomile tea.
+      <br>
+      <br>
+      <br>
+			<marquee>Light as feathers the witches fly,</marquee>
+
+<div class="circle-outline3"> </div>
+
+      <br>
+        The horn of the moon is plain to see;
+
+      <br>
+        By a firefly under a jonquil flower
+
+      <br>
+        A goblin toasts a bumble-bee.
+
+    <br>
+    <br>
+    <br>
+<div class="circle-outline4"> </div>
+        We might be fifty, we might be five,
+
+        <br>
+
+
+      &nbsp &nbsp&nbsp&nbsp&nbsp So snug, so compact, so wise are we!
+    <br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  Under the kitchen-table leg
+    <br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp  My knee is pressing against his knee.
+    <br>
+      <br>
+      <br>
+<div class="circle-outline5"> </div>
+          &nbsp&nbsp&nbsp&nbsp&nbspOur shutters are shut, the fire is low,
+    <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe tap is dripping peacefully;
+
+    <br>
+      &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspThe saucepan shadows on the wall
+
+      <br>
+        &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAre black and round and plain to see.
+
+      </p>
+
+
+
+
+
+    </div>
+
+  </body>
+  </html>
