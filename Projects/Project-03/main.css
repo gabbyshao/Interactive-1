@@ -21,6 +21,15 @@ body {
   font-size: 40px;
 }
 
+#intro {
+  margin-left:-100px;
+  margin-top:180px;
+  margin-right: 500px;
+  position:fixed;
+  color:black;
+  font-size: 30px;
+  line-height: -10em;
+}
 
 #one:hover{
   opacity: 0;
